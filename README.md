@@ -9,7 +9,7 @@ Feature Engineering: Extensive feature engineering was a cornerstone of our proj
 
 Addressing Data Imbalance: The inherent data imbalance posed a significant challenge. We diligently explored and implemented an array of strategies to ensure model accuracy, paying particular attention to the minority classes within the dataset.
 
-Model Selection and Fine-Tuning: After a rigorous evaluation, we selected XGBoost as our model of choice, given its well-documented robust performance. The model's potential was further unlocked through a meticulous fine-tuning process using Randomized Search cross-validation, ensuring the identification of optimal hyperparameters.
+Model Selection and Fine-Tuning: After a rigorous evaluation, we selected BaggingClassifier as our model of choice, given its well-documented robust performance. The model's potential was further unlocked through a meticulous fine-tuning process using Randomized Search cross-validation, ensuring the identification of optimal hyperparameters.
 
 Cross Validation: Rigorous validation was a non-negotiable step in securing the model's robustness and generalization. To accomplish this, we executed a 5-fold cross-validation process, successfully achieving our pre-defined performance benchmarks.
 
