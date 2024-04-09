@@ -1,17 +1,35 @@
-Project Overview: Term Deposit Marketing
+ # Term Deposit Marketing
 
-This project was undertaken to meet the specific requirements of a small startup specializing in machine learning solutions tailored to the banking industry. Our primary objective was to craft a robust machine-learning model capable of identifying potential customers with a propensity to invest in financial products. The core dataset for this endeavor was drawn from a marketing campaign that engaged customers through phone calls.
+# Background:
 
-Project Approach:
-Preliminary Data Analysis: Our journey embarked with a comprehensive preliminary data analysis. This preliminary phase was instrumental in uncovering valuable insights within the dataset, providing a firm bedrock for our subsequent work.
+Our objective is to create a robust machine learning system for a small startup, focusing mainly on providing machine learning solutions in the European banking market. Leveraging information coming from call center data, we are looking for ways to improve the success rate for calls made to customers for any product that the clients offer.
 
-Feature Engineering: Extensive feature engineering was a cornerstone of our project. We dedicated ourselves to enhancing both continuous and categorical data, enriching the available information to bolster our model's predictive capabilities.
+Ultimately, we are designing an ever-evolving machine learning product that offers high success outcomes while providing interpretability for our clients to make informed decisions.
 
-Addressing Data Imbalance: The inherent data imbalance posed a significant challenge. We diligently explored and implemented an array of strategies to ensure model accuracy, paying particular attention to the minority classes within the dataset.
+# Data Description:
+The dataset originates from the direct marketing initiatives of a European banking institution. The marketing campaign entails contacting customers through phone calls, often making multiple attempts to encourage product subscriptions, specifically for term deposits. Term deposits typically represent short-term financial commitments with maturities spanning from one month to a few years.
 
-Model Selection and Fine-Tuning: After a rigorous evaluation, we selected BaggingClassifier as our model of choice, given its well-documented robust performance. The model's potential was further unlocked through a meticulous fine-tuning process using Randomized Search cross-validation, ensuring the identification of optimal hyperparameters.
+## Attributes:
+    	age : age of customer (numeric)
+    	job : type of job (categorical) 
+    	marital : marital status (categorical)
+    	education (categorical)
+    	default: has credit in default? (binary)
+    	balance: average yearly balance, in euros (numeric) 
+    	housing: has a housing loan? (binary)
+    	loan: has personal loan? (binary)
+    	contact: contact communication type (categorical) 
+    	day: last contact day of the month (numeric)
+    	month: last contact month of year (categorical)
+    	duration: last contact duration, in seconds (numeric)
+    	campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
+    	Output (Label): y - has the client subscribed to a term deposit? (binary)
+     
+# Goal(s):
+Predict if the customer will subscribe (yes/no) to a term deposit (variable y)
+Success Metric(s): Hit 81% or above accuracy by evaluating with 5-fold cross validation, reporting the average performance score.
+Bonus(es): Find the customers who are more likely to buy the investment product. Determine the segment(s) of customers our client should prioritize. Find out What makes the customers buy? - Which feature should be the focuse be on.
 
-Cross Validation: Rigorous validation was a non-negotiable step in securing the model's robustness and generalization. To accomplish this, we executed a 5-fold cross-validation process, successfully achieving our pre-defined performance benchmarks.
 
-Tools and Technologies:
-The project was propelled forward by a suite of powerful tools and technologies. Notably, we leveraged Plotly for sophisticated data visualization and employed pandas for comprehensive feature engineering. These tools streamlined our workflow and contributed to overall project efficiency.
+ 
+
