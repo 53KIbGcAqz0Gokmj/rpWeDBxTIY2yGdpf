@@ -30,13 +30,3 @@ Predict if the customer will subscribe (yes/no) to a term deposit (variable y)
 Success Metric(s): Hit 81% or above accuracy by evaluating with 5-fold cross validation, reporting the average performance score.
 Bonus(es): Find the customers who are more likely to buy the investment product. Determine the segment(s) of customers our client should prioritize. Find out What makes the customers buy? - Which feature should be the focuse be on.
 
-# Solution:
-
-# let's view the first 5 rows of the data
-data.head()
-age	job	marital	education	default	balance	housing	loan	contact	day	month	duration	campaign	y
-0	58	management	married	tertiary	no	2143	yes	no	unknown	5	may	261	1	no
-1	44	technician	single	secondary	no	29	yes	no	unknown	5	may	151	1	no
-2	33	entrepreneur	married	secondary	no	2	yes	yes	unknown	5	may	76	1	no
-3	47	blue-collar	married	unknown	no	1506	yes	no	unknown	5	may	92	1	no
-4	33	unknown	single	unknown	no	1	no	no	unknown	5	may	198	1	no
