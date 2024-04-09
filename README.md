@@ -30,6 +30,7 @@ Predict if the customer will subscribe (yes/no) to a term deposit (variable y)
 Success Metric(s): Hit 81% or above accuracy by evaluating with 5-fold cross validation, reporting the average performance score.
 Bonus(es): Find the customers who are more likely to buy the investment product. Determine the segment(s) of customers our client should prioritize. Find out What makes the customers buy? - Which feature should be the focuse be on.
 
+# Solution:
 
  
 
