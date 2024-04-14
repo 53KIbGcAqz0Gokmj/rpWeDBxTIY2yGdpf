@@ -14,8 +14,10 @@ The dataset originates from the direct marketing initiatives of a European banki
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 40000 entries, 0 to 39999
 Data columns (total 14 columns):
+
  #   Column     Non-Null Count  Dtype   
----  ------     --------------  -----   
+---  ------     --------------  -----  
+
  0   age        40000 non-null  int64   
  1   job        40000 non-null  category
  2   marital    40000 non-null  category
