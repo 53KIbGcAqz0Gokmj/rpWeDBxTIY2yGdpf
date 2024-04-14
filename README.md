@@ -11,20 +11,27 @@ The dataset originates from the direct marketing initiatives of a European banki
 
 ## Attributes:
  
- age : age of customer (numeric)
-  job : type of job (categorical) 
-  marital : marital status (categorical)
-  education (categorical)
- default: has credit in default? (binary)
- balance: average yearly balance, in euros (numeric) 
- housing: has a housing loan? (binary)
- loan: has personal loan? (binary)
- contact: contact communication type (categorical) 
- day: last contact day of the month (numeric)
- month: last contact month of year (categorical)
- duration: last contact duration, in seconds (numeric)
- campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
- Output (Label): y - has the client subscribed to a term deposit? (binary)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 40000 entries, 0 to 39999
+Data columns (total 14 columns):
+ #   Column     Non-Null Count  Dtype   
+---  ------     --------------  -----   
+ 0   age        40000 non-null  int64   
+ 1   job        40000 non-null  category
+ 2   marital    40000 non-null  category
+ 3   education  40000 non-null  category
+ 4   default    40000 non-null  category
+ 5   balance    40000 non-null  int64   
+ 6   housing    40000 non-null  category
+ 7   loan       40000 non-null  category
+ 8   contact    40000 non-null  category
+ 9   day        40000 non-null  int64   
+ 10  month      40000 non-null  category
+ 11  duration   40000 non-null  int64   
+ 12  campaign   40000 non-null  int64   
+ 13  y          40000 non-null  category
+dtypes: category(9), int64(5)
+memory usage: 1.9 MB
      
 # Goal(s):
 Predict if the customer will subscribe (yes/no) to a term deposit (variable y)
