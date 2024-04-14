@@ -14,7 +14,9 @@ The dataset originates from the direct marketing initiatives of a European banki
  age : age of customer (numeric)
  
  job : type of job (categorical) 
+ 
  marital : marital status (categorical)
+ 
  education (categorical)
  default: has credit in default? (binary)
  balance: average yearly balance, in euros (numeric) 
