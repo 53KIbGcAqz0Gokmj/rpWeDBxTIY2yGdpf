@@ -46,28 +46,9 @@ Bonus(es): Find the customers who are more likely to buy the investment product.
 
 The dataset has no duplicates or null values. It comprises 40,000 records with a variety of attributes. Notably, the dataset includes both binary and categorical attributes, providing a diverse set of information for analysis.
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/56705905-7a2c-4577-a592-d3334f19d5d9)
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/3c1fca0b-1fff-411e-9b1a-f71cda8fbb53)
 
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 40000 entries, 0 to 39999
-Data columns (total 14 columns):
-   Column     Non-Null Count  Dtype 
----  ------     --------------  ----- 
- 0   age        40000 non-null  int64 
- 1   job        40000 non-null  object
- 2   marital    40000 non-null  object
- 3   education  40000 non-null  object
- 4   default    40000 non-null  object
- 5   balance    40000 non-null  int64 
- 6   housing    40000 non-null  object
- 7   loan       40000 non-null  object
- 8   contact    40000 non-null  object
- 9   day        40000 non-null  int64 
- 10  month      40000 non-null  object
- 11  duration   40000 non-null  int64 
- 12  campaign   40000 non-null  int64 
- 13  y          40000 non-null  object
-dtypes: int64(5), object(9)
-memory usage: 4.3+ MB
+
 
 
 
