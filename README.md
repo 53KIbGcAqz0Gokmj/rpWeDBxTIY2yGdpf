@@ -37,7 +37,7 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 40000 entries, 0 to 39999
 Data columns (total 14 columns):
- #   Column     Non-Null Count  Dtype 
+   Column     Non-Null Count  Dtype 
 ---  ------     --------------  ----- 
  0   age        40000 non-null  int64 
  1   job        40000 non-null  object
@@ -56,26 +56,6 @@ Data columns (total 14 columns):
 dtypes: int64(5), object(9)
 memory usage: 4.3+ MB
 
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 40000 entries, 0 to 39999
-Data columns (total 14 columns):
- #   Column     Non-Null Count  Dtype 
----  ------     --------------  ----- 
- 0   age        40000 non-null  int64 
- 1   job        40000 non-null  object
- 2   marital    40000 non-null  object
- 3   education  40000 non-null  object
- 4   default    40000 non-null  object
- 5   balance    40000 non-null  int64 
- 6   housing    40000 non-null  object
- 7   loan       40000 non-null  object
- 8   contact    40000 non-null  object
- 9   day        40000 non-null  int64 
- 10  month      40000 non-null  object
- 11  duration   40000 non-null  int64 
- 12  campaign   40000 non-null  int64 
- 13  y          40000 non-null  object
-dtypes: int64(5), object(9)
-memory usage: 4.3+ MB
+
 
 
