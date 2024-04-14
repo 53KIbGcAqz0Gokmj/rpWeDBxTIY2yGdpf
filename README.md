@@ -47,6 +47,12 @@ Bonus(es): Find the customers who are more likely to buy the investment product.
 The dataset has no duplicates or null values. It comprises 40,000 records with a variety of attributes. Notably, the dataset includes both binary and categorical attributes, providing a diverse set of information for analysis.
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/a9d1fd79-86e9-4c84-acd0-46f76677ad68)
 
+# Following the initial data preprocessing and EDA, the key findings are as follows:
+
+* The class distribution in the target variable is imbalanced.
+* We have 92.8% observations for non-term deposit and 30% observations for term deposit.
+
+![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/49c1a5db-96bc-498b-9c84-d88a6cfa94b0)
 
 
 
