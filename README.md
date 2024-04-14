@@ -17,21 +17,34 @@ Data columns (total 14 columns):
 
  #   Column     Non-Null Count  Dtype   
 ---  ------     --------------  -----  
-
- 0   age        40000 non-null  int64   
+ 0   age        40000 non-null  int64
+ 
  1   job        40000 non-null  category
+ 
  2   marital    40000 non-null  category
+ 
  3   education  40000 non-null  category
+ 
  4   default    40000 non-null  category
+ 
  5   balance    40000 non-null  int64   
+ 
  6   housing    40000 non-null  category
+ 
  7   loan       40000 non-null  category
+ 
  8   contact    40000 non-null  category
+ 
  9   day        40000 non-null  int64   
+ 
  10  month      40000 non-null  category
+ 
  11  duration   40000 non-null  int64   
+ 
  12  campaign   40000 non-null  int64   
+ 
  13  y          40000 non-null  category
+ 
 dtypes: category(9), int64(5)
 memory usage: 1.9 MB
      
