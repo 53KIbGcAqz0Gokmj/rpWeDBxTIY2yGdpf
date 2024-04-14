@@ -12,6 +12,7 @@ The dataset originates from the direct marketing initiatives of a European banki
 ## Attributes:
  
  age : age of customer (numeric)
+ 
  job : type of job (categorical) 
  marital : marital status (categorical)
  education (categorical)
