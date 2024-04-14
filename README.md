@@ -45,6 +45,7 @@ Bonus(es): Find the customers who are more likely to buy the investment product.
 # Solution:
 
 The dataset has no duplicates or null values. It comprises 40,000 records with a variety of attributes. Notably, the dataset includes both binary and categorical attributes, providing a diverse set of information for analysis.
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/56705905-7a2c-4577-a592-d3334f19d5d9)
 
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 40000 entries, 0 to 39999
