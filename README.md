@@ -10,6 +10,7 @@ Ultimately, we are designing an ever-evolving machine learning product that offe
 The dataset originates from the direct marketing initiatives of a European banking institution. The marketing campaign entails contacting customers through phone calls, often making multiple attempts to encourage product subscriptions, specifically for term deposits. Term deposits typically represent short-term financial commitments with maturities spanning from one month to a few years.
 
 ## Attributes:
+ 
  age : age of customer (numeric)
  job : type of job (categorical) 
  marital : marital status (categorical)
