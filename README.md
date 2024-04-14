@@ -45,8 +45,8 @@ Bonus(es): Find the customers who are more likely to buy the investment product.
 # Solution:
 
 The dataset has no duplicates or null values. It comprises 40,000 records with a variety of attributes. Notably, the dataset includes both binary and categorical attributes, providing a diverse set of information for analysis.
-![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/56705905-7a2c-4577-a592-d3334f19d5d9)
-![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/3c1fca0b-1fff-411e-9b1a-f71cda8fbb53)
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/3e0b6dd1-4c16-4283-9d0b-81dcc0c88262)
+
 
 
 
