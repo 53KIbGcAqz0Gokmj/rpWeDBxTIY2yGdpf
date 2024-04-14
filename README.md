@@ -30,3 +30,36 @@ Predict if the customer will subscribe (yes/no) to a term deposit (variable y)
 Success Metric(s): Hit 81% or above accuracy by evaluating with 5-fold cross validation, reporting the average performance score.
 Bonus(es): Find the customers who are more likely to buy the investment product. Determine the segment(s) of customers our client should prioritize. Find out What makes the customers buy? - Which feature should be the focuse be on.
 
+# Solution:
+
+The dataset has no duplicates or null values. It comprises 40,000 records with a variety of attributes. Notably, the dataset includes both binary and categorical attributes, providing a diverse set of information for analysis.
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 40000 entries, 0 to 39999
+Data columns (total 14 columns):
+ #   Column     Non-Null Count  Dtype 
+---  ------     --------------  ----- 
+ 0   age        40000 non-null  int64 
+ 1   job        40000 non-null  object
+ 2   marital    40000 non-null  object
+ 3   education  40000 non-null  object
+ 4   default    40000 non-null  object
+ 5   balance    40000 non-null  int64 
+ 6   housing    40000 non-null  object
+ 7   loan       40000 non-null  object
+ 8   contact    40000 non-null  object
+ 9   day        40000 non-null  int64 
+ 10  month      40000 non-null  object
+ 11  duration   40000 non-null  int64 
+ 12  campaign   40000 non-null  int64 
+ 13  y          40000 non-null  object
+dtypes: int64(5), object(9)
+memory usage: 4.3+ MB
+
+
+age	job	marital	education	default	balance	housing	loan	contact	day	month	duration	campaign	y
+0	58	management	married	tertiary	no	2143	yes	no	unknown	5	may	261	1	no
+1	44	technician	single	secondary	no	29	yes	no	unknown	5	may	151	1	no
+2	33	entrepreneur	married	secondary	no	2	yes	yes	unknown	5	may	76	1	no
+3	47	blue-collar	married	unknown	no	1506	yes	no	unknown	5	may	92	1	no
+4	33	unknown	single	unknown	no	1	no	no	unknown	5	may	198	1	no
