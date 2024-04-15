@@ -83,12 +83,10 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 
 # Building and training Models
 ## Comparing all models till now
-![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2d1928cd-be1a-4ee9-a6d4-8e992708540a)
-
-![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/80087f6c-f68d-4aaa-92fc-ea75e574f546)
 
 # Model comparisons (confusion matrix, ROC, AUC whichever is applicable)
 * We are now done with pre-processing and evaluation criterion, so let's start building the model.
+  
 # Model Building with original data.
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/c5514000-35ed-4bd1-8ca2-4f45a1a0704f)
