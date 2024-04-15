@@ -54,6 +54,12 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/49c1a5db-96bc-498b-9c84-d88a6cfa94b0)
 
+## Target Variable y vs Age
+
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/1b920892-fe21-4893-99b7-d0dbc6fae4ce)
+
+
+
 
 
 
