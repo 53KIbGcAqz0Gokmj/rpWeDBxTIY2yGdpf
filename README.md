@@ -82,7 +82,7 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/9ebd1eca-4bab-439a-9eeb-7aad590701a7)
 
 # Building and training Models
-# # Comparing all models till now
+## Comparing all models till now
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2d1928cd-be1a-4ee9-a6d4-8e992708540a)
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/80087f6c-f68d-4aaa-92fc-ea75e574f546)
@@ -98,7 +98,8 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 ## Bagging Classifier
 
 ## Training performance:
-![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/c979aca3-876f-4dd7-8159-062bee76a48a)
+
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2a99cd27-7a09-4827-8ed0-443c646ac13d)
 
 * Performance on training set varies between 0.925 to 0.928 recall.
 * Let's check the performance on testing data.
