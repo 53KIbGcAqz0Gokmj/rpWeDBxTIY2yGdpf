@@ -82,12 +82,7 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/9ebd1eca-4bab-439a-9eeb-7aad590701a7)
 
 # Building and training Models
-
-![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/94978a9c-1229-4ca9-aaa8-17c5cf2484db)
-
-![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2b0f31cf-802c-4f71-a001-8ecfac31a3b2)
-
-# Comparing all models till now
+# # Comparing all models till now
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2d1928cd-be1a-4ee9-a6d4-8e992708540a)
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/80087f6c-f68d-4aaa-92fc-ea75e574f546)
@@ -112,7 +107,9 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/f7bd0aa5-ac2c-43f2-b4a1-e890d2c36e85)
 
 * Performance on testingg set varies between 0.998 to 0.928 recall.
-  
+
+![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/94978a9c-1229-4ca9-aaa8-17c5cf2484db)
+   
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/00d72c4b-ab94-48d2-a881-5227d5a84d66)
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/b9814352-8ccd-4929-a8da-15d71b75c5e4)
