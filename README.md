@@ -60,6 +60,11 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 * We can see that the median age of the customers subscribed to a term deposit is less than the median age of the customer not subscribed to a term deposit
 * This shows that younger customers are more likely subscribe to a term deposit.
 * There are outliers in boxplots of both class distributions
+  
+![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/bce0558d-a121-4325-9298-d97f31d16971)
+
+![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/d7c81a05-b530-4a51-80aa-3f828480cc1b)
+
 
 
 
