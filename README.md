@@ -96,7 +96,7 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 
 * Performance on testingg set varies between 0.998 to 0.928 recall.
   
-![downloa![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/94978a9c-1229-4ca9-aaa8-17c5cf2484db)
+![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/94978a9c-1229-4ca9-aaa8-17c5cf2484db)
 
 
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2b0f31cf-802c-4f71-a001-8ecfac31a3b2)
@@ -104,7 +104,16 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 # Comparing all models till now
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2d1928cd-be1a-4ee9-a6d4-8e992708540a)
 
-d](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/8046f5e0-03cc-4ff4-998d-1984eed0b022)
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/80087f6c-f68d-4aaa-92fc-ea75e574f546)
+
+# Model comparisons (confusion matrix, ROC, AUC whichever is applicable)
+* We are now done with pre-processing and evaluation criterion, so let's start building the model.
+# Model Building with original data.
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/c5514000-35ed-4bd1-8ca2-4f45a1a0704f)
+
+![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/11985d0a-47f4-46bd-b590-87da6673fd33)
+
+
 
 ## Conclusion:
 The analysis led to the following conclusions:
