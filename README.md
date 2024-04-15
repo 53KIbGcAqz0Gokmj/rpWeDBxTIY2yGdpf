@@ -99,14 +99,16 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 
 ## Training performance:
 
-![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2a99cd27-7a09-4827-8ed0-443c646ac13d)
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/86bf0bbc-bd0d-4635-b768-009e974e565f)
+
 
 * Performance on training set varies between 0.925 to 0.928 recall.
 * Let's check the performance on testing data.
   
 ## Testing performance:
 
-![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/3b1905d2-b183-4ce9-9205-40f1efa76e69)
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/620a1ecb-7856-46ae-9e9a-b41813abb93a)
+
 
 
 * Performance on testingg set varies between 0.998 to 0.928 recall.
