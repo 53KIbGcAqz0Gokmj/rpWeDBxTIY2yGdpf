@@ -63,9 +63,29 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
   
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/bce0558d-a121-4325-9298-d97f31d16971)
 
+![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/b4ce979b-313a-46d1-aae6-a0896d3a6fd2)
+
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/d7c81a05-b530-4a51-80aa-3f828480cc1b)
 
 
+
+
+## Conclusion:
+The analysis led to the following conclusions:
+
+After evaluating seven different models, it is evident that their performance values significantly vary.
+
+Accuracy: The bagging model achieved the highest accuracy value, followed by the Adaboost model, where as Xgboost, Decision Tree, and Random forest values were found to be overfitting.
+
+The comparative analysis has been carried out by using 5-fold cross-validation methodology and the average score was found to be best for the Bagging Classifier model which was found to be 0.99.
+
+Overfitting: It is important to note that while some models performed well on training data, they exhibited signs of overfitting when tested on the validation or test dataset. This means they may not generalize well to new data.
+
+The Bagging Classifier model showed remarkable robustness, performing consistency well across various test scenarios and datasets, making it a strong contender in real-world deployment.
+
+Business Context: Models that offer interpretability, such as the Bagging classifier model preferred in cases where understanding the model's decision-making process is crucial.
+
+Ultimately, the choice of the best model is a Bagging Classifier and aligning with the given dataset characteristics, and constraints of the project. Further analysis, model fine tuning, or ensemble methods could be considered to improve the model’s performance.
 
 
 
