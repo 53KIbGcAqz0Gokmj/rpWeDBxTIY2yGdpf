@@ -79,73 +79,20 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/79243d3d-fa05-4914-b5ee-fd34e405d101)
 
 * We performed one-hot encoding on all the categorical variables, converting them into a format suitable for machine learning algorithms.
-
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 40000 entries, 0 to 39999
-Data columns (total 44 columns):
- #   Column               Non-Null Count  Dtype
----  ------               --------------  -----
- 0   age                  40000 non-null  int64
- 1   balance              40000 non-null  int64
- 2   day                  40000 non-null  int64
- 3   duration             40000 non-null  int64
- 4   campaign             40000 non-null  int64
- 5   job_admin            40000 non-null  bool 
- 6   job_blue-collar      40000 non-null  bool 
- 7   job_entrepreneur     40000 non-null  bool 
- 8   job_housemaid        40000 non-null  bool 
- 9   job_management       40000 non-null  bool 
- 10  job_retired          40000 non-null  bool 
- 11  job_self-employed    40000 non-null  bool 
- 12  job_services         40000 non-null  bool 
- 13  job_student          40000 non-null  bool 
- 14  job_technician       40000 non-null  bool 
- 15  job_unemployed       40000 non-null  bool 
- 16  job_unknown          40000 non-null  bool 
- 17  marital_divorced     40000 non-null  bool 
- 18  marital_married      40000 non-null  bool 
- 19  marital_single       40000 non-null  bool 
- 20  education_primary    40000 non-null  bool 
- 21  education_secondary  40000 non-null  bool 
- 22  education_tertiary   40000 non-null  bool 
- 23  education_unknown    40000 non-null  bool 
- 24  housing_no           40000 non-null  bool 
- 25  housing_yes          40000 non-null  bool 
- 26  loan_no              40000 non-null  bool 
- 27  loan_yes             40000 non-null  bool 
- 28  contact_cellular     40000 non-null  bool 
- 29  contact_telephone    40000 non-null  bool 
- 30  contact_unknown      40000 non-null  bool 
- 31  month_apr            40000 non-null  bool 
- 32  month_aug            40000 non-null  bool 
- 33  month_dec            40000 non-null  bool 
- 34  month_feb            40000 non-null  bool 
- 35  month_jan            40000 non-null  bool 
- 36  month_jul            40000 non-null  bool 
- 37  month_jun            40000 non-null  bool 
- 38  month_mar            40000 non-null  bool 
- 39  month_may            40000 non-null  bool 
- 40  month_nov            40000 non-null  bool 
- 41  month_oct            40000 non-null  bool 
- 42  y_no                 40000 non-null  bool 
- 43  y_yes                40000 non-null  bool 
-dtypes: bool(39), int64(5)
-memory usage: 3.0 MB
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/9ebd1eca-4bab-439a-9eeb-7aad590701a7)
 
 # Building and training Models
 
 ## Bagging Classifier
 
 ## Training performance:
-Accuracy	Recall	Precision	F1
-0	0.991625	0.999062	0.99055	0.994788
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/c979aca3-876f-4dd7-8159-062bee76a48a)
 
 * Performance on training set varies between 0.925 to 0.928 recall.
 * Let's check the performance on testing data.
   
 ## Testing performance:
-Accuracy	Recall	Precision	F1
-0	0.9915	0.99875	0.990701	0.994709
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/f7bd0aa5-ac2c-43f2-b4a1-e890d2c36e85)
 
 * Performance on testingg set varies between 0.998 to 0.928 recall.
   
