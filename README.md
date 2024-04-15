@@ -105,7 +105,8 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 * Let's check the performance on testing data.
   
 ## Testing performance:
-![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/f7bd0aa5-ac2c-43f2-b4a1-e890d2c36e85)
+
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/fdc93bc9-4e58-4ac6-9180-a8c93f754620)
 
 * Performance on testingg set varies between 0.998 to 0.928 recall.
 
