@@ -113,7 +113,8 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 
 
 * Performance on testingg set varies between 0.998 to 0.928 recall.
-
+  
+# creating confusion matrix
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/94978a9c-1229-4ca9-aaa8-17c5cf2484db)
    
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/00d72c4b-ab94-48d2-a881-5227d5a84d66)
