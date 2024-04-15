@@ -82,17 +82,20 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/9ebd1eca-4bab-439a-9eeb-7aad590701a7)
 
 # Building and training Models
-## Comparing all models till now
 
-# Model comparisons (confusion matrix, ROC, AUC whichever is applicable)
+## Model comparisons (confusion matrix, ROC, AUC whichever is applicable)
+
 * We are now done with pre-processing and evaluation criterion, so let's start building the model.
   
 # Model Building with original data.
+
+## Comparing all models till now
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/c5514000-35ed-4bd1-8ca2-4f45a1a0704f)
 
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/11985d0a-47f4-46bd-b590-87da6673fd33)
 
+# Final Model Evaluation on test dataset:
 
 ## Bagging Classifier
 
@@ -107,7 +110,6 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 ## Testing performance:
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/620a1ecb-7856-46ae-9e9a-b41813abb93a)
-
 
 
 * Performance on testingg set varies between 0.998 to 0.928 recall.
