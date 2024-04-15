@@ -63,12 +63,101 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
   
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/bce0558d-a121-4325-9298-d97f31d16971)
 
+## creating a series of box plots for different variables in your dataset using 
+
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/b4ce979b-313a-46d1-aae6-a0896d3a6fd2)
+
+# Data Preprocessing
+
+## Outlier Detection
+
+* The dataset contains outliers, particularly in the 'duration' and 'balance' attributes. We will retain outliers, given the imbalanced class nature. Additionally, normalization is skipped as it resulted in reduced model accuracy.
+
 
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/d7c81a05-b530-4a51-80aa-3f828480cc1b)
 
+![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/79243d3d-fa05-4914-b5ee-fd34e405d101)
+
+* We performed one-hot encoding on all the categorical variables, converting them into a format suitable for machine learning algorithms.
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 40000 entries, 0 to 39999
+Data columns (total 44 columns):
+ #   Column               Non-Null Count  Dtype
+---  ------               --------------  -----
+ 0   age                  40000 non-null  int64
+ 1   balance              40000 non-null  int64
+ 2   day                  40000 non-null  int64
+ 3   duration             40000 non-null  int64
+ 4   campaign             40000 non-null  int64
+ 5   job_admin            40000 non-null  bool 
+ 6   job_blue-collar      40000 non-null  bool 
+ 7   job_entrepreneur     40000 non-null  bool 
+ 8   job_housemaid        40000 non-null  bool 
+ 9   job_management       40000 non-null  bool 
+ 10  job_retired          40000 non-null  bool 
+ 11  job_self-employed    40000 non-null  bool 
+ 12  job_services         40000 non-null  bool 
+ 13  job_student          40000 non-null  bool 
+ 14  job_technician       40000 non-null  bool 
+ 15  job_unemployed       40000 non-null  bool 
+ 16  job_unknown          40000 non-null  bool 
+ 17  marital_divorced     40000 non-null  bool 
+ 18  marital_married      40000 non-null  bool 
+ 19  marital_single       40000 non-null  bool 
+ 20  education_primary    40000 non-null  bool 
+ 21  education_secondary  40000 non-null  bool 
+ 22  education_tertiary   40000 non-null  bool 
+ 23  education_unknown    40000 non-null  bool 
+ 24  housing_no           40000 non-null  bool 
+ 25  housing_yes          40000 non-null  bool 
+ 26  loan_no              40000 non-null  bool 
+ 27  loan_yes             40000 non-null  bool 
+ 28  contact_cellular     40000 non-null  bool 
+ 29  contact_telephone    40000 non-null  bool 
+ 30  contact_unknown      40000 non-null  bool 
+ 31  month_apr            40000 non-null  bool 
+ 32  month_aug            40000 non-null  bool 
+ 33  month_dec            40000 non-null  bool 
+ 34  month_feb            40000 non-null  bool 
+ 35  month_jan            40000 non-null  bool 
+ 36  month_jul            40000 non-null  bool 
+ 37  month_jun            40000 non-null  bool 
+ 38  month_mar            40000 non-null  bool 
+ 39  month_may            40000 non-null  bool 
+ 40  month_nov            40000 non-null  bool 
+ 41  month_oct            40000 non-null  bool 
+ 42  y_no                 40000 non-null  bool 
+ 43  y_yes                40000 non-null  bool 
+dtypes: bool(39), int64(5)
+memory usage: 3.0 MB
+
+# Building and training Models
+
+## Bagging Classifier
+
+## Training performance:
+Accuracy	Recall	Precision	F1
+0	0.991625	0.999062	0.99055	0.994788
+
+* Performance on training set varies between 0.925 to 0.928 recall.
+* Let's check the performance on testing data.
+  
+## Testing performance:
+Accuracy	Recall	Precision	F1
+0	0.9915	0.99875	0.990701	0.994709
+
+* Performance on testingg set varies between 0.998 to 0.928 recall.
+  
+![downloa![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/94978a9c-1229-4ca9-aaa8-17c5cf2484db)
 
 
+![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2b0f31cf-802c-4f71-a001-8ecfac31a3b2)
+
+# Comparing all models till now
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2d1928cd-be1a-4ee9-a6d4-8e992708540a)
+
+d](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/8046f5e0-03cc-4ff4-998d-1984eed0b022)
 
 ## Conclusion:
 The analysis led to the following conclusions:
