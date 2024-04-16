@@ -122,8 +122,8 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
 
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/00d72c4b-ab94-48d2-a881-5227d5a84d66)
 
-![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/b9814352-8ccd-4929-a8da-15d71b75c5e4)
-   
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/4a4eebb2-660e-416a-abb6-a0324031c9ef)
+
 
 # Conclusion:
 The analysis led to the following conclusions:
