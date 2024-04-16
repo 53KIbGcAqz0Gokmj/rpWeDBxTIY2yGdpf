@@ -116,14 +116,14 @@ The dataset has no duplicates or null values. It comprises 40,000 records with a
   
 # creating confusion matrix
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/94978a9c-1229-4ca9-aaa8-17c5cf2484db)
+
+![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/b9814352-8ccd-4929-a8da-15d71b75c5e4)
    
 ![download](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/00d72c4b-ab94-48d2-a881-5227d5a84d66)
 
 ![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/2f4506a0-cecd-4e44-8676-a5872124127c)
 
-![image](https://github.com/53KIbGcAqz0Gokmj/rpWeDBxTIY2yGdpf/assets/143815258/b9814352-8ccd-4929-a8da-15d71b75c5e4)
-
-## Conclusion:
+# Conclusion:
 The analysis led to the following conclusions:
 
 After evaluating seven different models, it is evident that their performance values significantly vary.
